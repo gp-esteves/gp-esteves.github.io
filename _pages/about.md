@@ -1,49 +1,64 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "👋 Hi! I'm Gabriel!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+🍎 I hold a Bachelor's degree in Nutrition and Metabolism from the University of São Paulo (USP). 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+🎓 I'm currently a Ph.D. candidate USP, and member of the Applied Physiology & Nutrition Research Group, as part of the Center of Lifestyle Medicine.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+🔬 My research explores the role of nutrition and physical exercise interventions in improving the health and quality of life in clinical populations. I'm also interested in sports science and the use of ergogenic supplements for sports performance. 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+🖥️ I also have a keen interest in statistics, data science and analysis, and aim to produce openly acessible and reproducible statistical code using R.
 
-Site-wide configuration
+📄 Publication profile summary
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+As of August 4, 2024:
+- 154 citations
+- h-index: 7
+- 23 total publications
+- 8 publication as a first-author
 
-Create content & metadata
+Source: [Google Scholar](https://scholar.google.com/citations?user=GSrbd_0AAAAJ&hl=en).
+
+📄 Selected recent publication
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## [Protein and Amino Acid Adequacy and Food Consumption by Processing Level in Vegans in Brazil](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820203)
 
-**Markdown generator**
+_Alice Erwig Leitão*, **Gabriel P. Esteves***, Bruna Caruso Mazzolani, Fabiana Infante Smaira, Martin Hindermann Santini, Heloísa C. Santo André, Bruno Gualano, Hamilton Roschel *shared first authorship._
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+My role in this paper: data management, cleaning, analysis, and visualization. I was also part of the design of the original survey, elaborating research question and objetives, as well as manuscript writing and publication.
 
-How to edit your site's GitHub repository
+### Abstract
+
+**Importance**  Major concerns regarding individuals who adhere to a vegan diet are whether they meet protein and essential amino acid recommendations and how reliant they are on ultraprocessed foods.
+
+**Objectives**  To investigate whether individuals who adhere to a vegan diet meet protein and essential amino acid recommendations and, as secondary objectives, to determine ultraprocessed food intake and potential factors associated with inadequate protein intake in this population.
+
+**Design, Setting, and Participants**  This cross-sectional survey study was conducted between September 2021 and January 2023 in Brazil among male and female adults (aged 18 years or older) who adhered to a vegan diet recruited from social media platforms.
+
+**Exposure**  Adherence to a vegan diet and unprocessed and minimally processed foods and ultraprocessed food consumption.
+
+**Main Outcomes and Measures**  Protein and essential amino acid intake and food consumption by processing level were assessed using a 1-day food diary. Nutrient adequacy ratios were calculated by dividing nutrient intake by its recommendation (using scores truncated at 1) for each participant and then finding the mean across participants for each nutrient. The mean adequacy ratio was the mean of all nutrient adequacy ratios.
+
+**Results**  Of 1014 participants who completed the survey, 774 individuals (median [IQR] age, 29 [24-35] years; 637 female [82.3%]) were confirmed as adhering to a vegan diet and provided adequate food recalls, among whom 558 individuals reported body weight and so had relative protein and amino acid intake values available. The median (IQR) body mass index (calculated as weight in kilograms divided by height in meters squared) of participants was 22.6 (20.3-24.8). The nutrient adequacy ratio of protein was 0.93 (95% CI, 0.91-0.94); for essential amino acids, ratios ranged from 0.90 (95% CI, 0.89-0.92) for lysine to 0.98 (95% CI, 0.97-0.99) for phenylalanine and tyrosine. The mean adequacy ratio for protein and all amino acids was 0.95 (95% CI, 0.94-0.96). The median intake level was 66.5% (95% CI, 65.0%-67.9%) of total energy intake for unprocessed and minimally processed food and 13.2% (95% CI, 12.4%-14.4%) of total energy intake for ultraprocessed food. Adjusted logistic regression models showed that consuming protein supplements (odds ratio ([OR]), 0.06 [95% CI 0.02-0.14]; P < .001) or textured soy protein (OR, 0.32 [95% CI, 0.17-0.59]; P < .001) was associated with decreased odds of inadequate protein intake. Higher ultraprocessed food intake levels were also associated with decreased odds of inadequate protein intake (eg, fourth vs first quartile of intake: OR, 0.16 [95% CI, 0.07-0.33]; P < .001), and higher unprocessed and minimally processed protein intake levels were associated with increased odds of inadequate protein intake (eg, fourth vs first quartile of intake: OR, 12.42 [95% CI, 5.56-29.51]; P < .001).
+
+**Conclusions and Relevance**  In this study, most individuals who adhered to a vegan diet attained protein and essential amino acid intake recommendations, largely based their diet of unprocessed and minimally processed food, and had a significantly lower proportion of ultraprocessed food intake compared with previous reports. Participants consuming less ultraprocessed food were more likely to have inadequate protein intake, suggesting a significant reliance on ultraprocessed proteins for this population.
+
+**Selected figure:**
+
+![Selected figure from publication](/images/jama_paper_figure.png)
+
+🧾 Curriculum
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+You can find my complete CV [here](https://gp-esteves.github.io/cv).
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
+📧 Contact
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Feel free to contact me via email at gabriel.perri.esteves@usp.br for any inquiries.
+
+See you! ✌️
